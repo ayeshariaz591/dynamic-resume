@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #a0d1f5; /* Soft blue background */
+}
+
+#resumePage img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  display: block;
+  border-radius: 50%;
+  margin: auto;
+  border: 5px solid #3a8fbf; /* Light blue border */
+}
+
+#resumeName {
+  text-align: center;
+  color: #333333; /* Dark gray text */
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.container,
+#resumePage {
+  width: 90%;
+  max-width: 650px;
+  margin: auto;
+  background-color: white;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  padding: 0.05em 1.8em;
+  margin-top: 30px;
+  border: none;
+  background-color: #ff6f61; /* Soft coral button */
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #e25b4f; /* Darker coral on hover */
+}
+
+label {
+  display: block;
+  margin-bottom: 0.7em;
+  font-weight: bold;
+  color: #333333; /* Dark gray for labels */
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+textarea {
+  height: 130px;
+  border-radius: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 0.85em;
+  margin-top: 0.5em;
+  border: 2px solid #3a8fbf; /* Light blue border for inputs */
+  box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #2a75a3; /* Darker blue on focus */
+  outline: none;
+}
+
+.hidden {
+  display: none;
+}
+
